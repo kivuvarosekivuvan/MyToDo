@@ -1,0 +1,90 @@
+.completed {
+    text-decoration: line-through;
+  }
+  #todos{
+    background-color: lightblue;
+    width: 60%;
+    margin-left: 300px;
+
+  }
+  h1{
+    font-size: 60px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #todoInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+
+  #button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 900;
+  }
+
+  #button:hover {
+    background-color: #45a049;
+  }
+ 
+
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightgray;
+      font-size: 14px;
+
+    }
+  
+    #todos {
+      
+      width: 100%;
+      margin: 0 auto;
+      max-width: 600px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    form {
+      margin-bottom: 10px;
+    }
+  
+    #todoInput {
+      width: 200px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    button{
+      font-size: 14px;
+    }
+    .todo {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    
+  }
